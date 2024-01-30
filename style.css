@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(116,135,64,1) 70%);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #cbc1c1;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 10px rgba(47, 1, 1, 0.2);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease; /* Added transition for smoother hover effect */
+}
+
+.container:hover {
+    transform: scale(1.05); /* Enlarge the container on hover */
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: color 0.3s ease; /* Added transition for color change on hover */
+}
+
+h1:hover {
+    color: #dc0f0f; /* Change color on hover */
+}
+
+#info-card {
+    text-align: center;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    transition: background-color 0.3s ease; /* Added transition for background color change on hover */
+}
+
+.field:hover {
+    background-color: #ddd; /* Change background color on hover */
+}
+
+.label {
+    font-weight: bold;
+    color: #555;
+    flex: 1;
+}
+
+#user-info span {
+    flex: 2;
+    color: #444;
+    text-align: left;
+    padding-left: 10px;
+}
+
+#user-info span:hover {
+    color: #03100f; /* Change text color on hover */
+}
